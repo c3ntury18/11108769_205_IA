@@ -1,0 +1,194 @@
+
+body{
+    background-color:lightgray;
+}
+
+
+
+.navbar{
+    width:3000px;
+    height:50px;
+    margin:auto;
+  }
+  
+  .icon{
+      width: 400px;
+      float:left;
+      height: 70px;
+  }
+  
+  .logo{
+      color: rgb(103, 52, 59);
+      font-size:30px;
+      font-family:Black;
+      padding-left:20px;
+      float:left;
+      padding-top:20px;
+  }
+   
+  .menu{
+  width: 400px;
+  float: left;
+  height: 80px;
+
+  }
+  
+  
+  ul{ 
+      float:left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  ul li{
+      list-style: none;
+      margin-left: 60px;
+      margin-top:28px;
+      font-size: 15px;
+  }
+  
+  ul li a {
+    text-decoration:none;
+    color: black;
+    font-family:Arial;
+    font-style: bold;
+    transition:0.2s ease-in-out;
+  }
+  
+  ul li a:hover{
+   color:blue; 
+  }
+
+
+  footer{
+    background: rgb(33, 31, 31);
+    padding-top: 100px;
+    position: absolute;
+    bottom: 0%;
+    }
+    .container{
+        width: 1450px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+       
+        
+        
+    }    
+    h1{
+        color: aliceblue;
+        font-family: Arial;
+        font-size: 60px;
+        font-weight: bold;
+        padding-top: 36px;
+    }
+    .content-wrapper{
+        width: 100%;
+        height: 20px;
+        position: relative;
+    }
+    
+    .content-wrapper img {
+        width: 100%;
+        height: 300px;
+        border-radius: 1px;
+        margin-top: 0px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+    }
+       
+        .text-wrapper {
+            position:absolute;
+            left: 70px;
+            right: 70px;
+            top: 150px;
+            transform: translate(-50,-50);
+        }
+    
+        .text-wrapper h1{
+            text-align: center;
+            color: white;
+        }
+
+
+
+    h2{
+        margin-top: 25%;
+        font-size: 40px;
+        font-family: Arial;
+        font-weight: bold;
+
+    }
+    h3{
+        font-size: 28px;
+        margin-bottom: 15px;
+        text-align:center;
+    }
+
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+        
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.section{
+    margin-top: 10%;
+    width: 48%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    margin-left: 2%;
+}
+
+.section{
+    margin-top: 10%;
+    width: 48%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.section{
+    margin-top: 10%;
+    width: 48%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.OurInstitute-button{
+    border: none;
+font-size:40px;
+font-family: 'Times New Roman';
+background-color: beige;
+color: blue;
+}
+
+.OurCommunity-button{
+    border: none;
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    background-color: beige;
+    color: brown;
+    }
+
+.Distancelearning-button{
+    border: none;
+    font-size: 40px;
+    font-family:'Times New Roman';
+    background-color: beige;
+    color: aqua;
+
+}
